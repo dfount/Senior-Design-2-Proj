@@ -1,0 +1,6 @@
+opencv-python==4.5.3.56            # For handling video and webcam input
+ultralytics==8.0.34                # YOLOv9 library for model loading and tracking
+python-dotenv==0.19.2             # For loading environment variables from .env file
+torch==1.10.0+cpu                 # PyTorch dependency for YOLOv9 (ensure it's the CPU version if you're not using GPU)
+numpy==1.21.2                     # Needed for array handling with OpenCV and model predictions
+pillow==8.4.0                     # For image processing (like saving results as images)
